@@ -1,13 +1,71 @@
 header {
+    font-family: 'Baloo Thambi', cursive;
     text-align: center;
     height: 80px;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
 
 nav {
-    background-color: bisque;
+    background-color: rgb(186, 75, 16);
+    color: white;
 }
 
-div {
-    display: inline;
+.resortPics {
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#mainImage {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#logo {
+margin-right: 20px;
+}
+
+
+footer {
+    background-color: rgb(186, 75, 16);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.footer-copyright {
+    margin-top: -40px;
+}
+
+#footergrid {
+    padding-bottom: 0;
+}
+
+#emailinput {
+    margin-left: 38px;
+}
+
+#lnameinput {
+    margin-left: 1px;
+}
+
+#descriptioninput {
+    width: 600px;
+    height: 200px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.Accomodations {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
