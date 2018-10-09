@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+    height: 80px;
+    font-size: 60px;
+}
+
+nav {
+    background-color: bisque;
+}
+
+div {
+    display: inline;
+}
