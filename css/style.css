@@ -7,9 +7,16 @@ header {
     margin-bottom: 30px;
 }
 
-nav {
+.navbar {
     background-color: rgb(186, 75, 16);
+}
+
+.nav-link{
     color: white;
+}
+
+.active {
+    font-size: 20px;
 }
 
 .resortPics {
@@ -22,6 +29,8 @@ nav {
 
 #mainImage {  
     display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -65,7 +74,40 @@ body {
     background-color: #f2f2f2;
 }
 
+form {
+    margin-left: 60px;
+}
+
+#address {
+    margin-left: 60px;
+}
 .Accomodations {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+}
+
+.activities {
+
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.activitytext {
+    width: 50%;
+    float: left;
+}
+
+.activitypic {
+    width: 286px;
+    height: 176px;
+    float: right;
+    margin-right: 350px;
+}
+
+#Illuminati {
+    text-align: center;
+    font-size: 25px;
 }

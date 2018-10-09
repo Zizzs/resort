@@ -12,13 +12,13 @@
 </head>
 <body>
     <header><img src="img/logo.jpg" alt="resort logo" id="logo">Contact</header>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                           <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
@@ -31,9 +31,9 @@
                           <a class="nav-link" href="travel.html">Travel Arrangements</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="pictures.html">Pictures</a>
+                          <a class="nav-link" href="pictures.html">Pictures</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                           <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                       </ul>
@@ -45,18 +45,18 @@
                     Last name: <input type="text" name="lname" id="lnameinput"><br>
                     Email: <input type="email" name="email" id="emailinput"><br>
                     <br>
-                    Description: <br>
-                    <input type="textarea" name="description" id="descriptioninput"><br>
-                    <br>
-                    <input type="submit" value="Submit">
+                    <textarea rows="4" cols="50" name="comment" form="usrform">
+                            Enter text here...</textarea>
+                            <br>
+                    <input type="submit" value="Submit" onclick="message()">
                   </form>
                   <br>
+                  <p id="address">Fantastic Palm Springs<br>
+                    9334 Beach Road<br>
+                    Florida, 58342<br>
+                    (000)-867-5309 <br>
+                  </p>
                   
-                  Fantastic Palm Springs<br>
-                  9334 Beach Road<br>
-                  Florida, 58342<br>
-                  (000)-867-5309 <br>
-
                                     <!-- Footer -->
 <footer class="page-footer font-small cyan darken-3">
 
@@ -87,7 +87,7 @@
                   <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
                 <!--Pinterest-->
-                <a class="pin-ic">
+                <a href="illuminati.html" style="color:white"  class="pin-ic">
                   <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
                 </a>
               </div>
@@ -108,6 +108,10 @@
       </footer>
       <!-- Footer -->
             
-    
+<script>
+    function message() {
+        alert("Your feedback is greatly appreciated!");
+    }
+</script>    
 </body>
 </html>
